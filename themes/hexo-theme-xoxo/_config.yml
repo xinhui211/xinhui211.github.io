@@ -26,6 +26,27 @@ scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
 
+search:
+  path: search.xml
+  field: post
+
+#RSS feed https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content_limit: 140
+
+
+sitemap:
+    path: sitemap.xml
+
+disqus_shortname: XXX
+
+google_analytics: XXX
+baidu_analytics: FuckUBaidu
+
 # switch
 show_excerpt: true
 show_date: true

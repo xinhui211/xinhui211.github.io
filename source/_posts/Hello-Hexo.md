@@ -1,7 +1,7 @@
 ---
 title: Hello Hexo
 date: 2020-03-06 07:15:49
-tags:
+tags: [markdown, test]
 ---
 
 # 一级标题
