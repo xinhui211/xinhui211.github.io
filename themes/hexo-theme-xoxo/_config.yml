@@ -9,7 +9,7 @@ menu:
   tags: /tags
   #categories: /categories
   search: /search
-  about: https://blog.basisz.cn
+  about: /about
   rss: /atom.xml
 
 # Miscelaneous
