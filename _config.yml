@@ -102,5 +102,6 @@ deploy:
   repo: git@github.com:gninen/gninen.github.io.git
   branch: master
 
+# local search
 local_search:
   enable: true

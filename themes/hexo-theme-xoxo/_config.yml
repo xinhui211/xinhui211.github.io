@@ -26,6 +26,7 @@ scripts:
 #- //cdn.bootcss.com/zepto/1.2.0/zepto.min.js
 #- /js/xoxo.js
 
+# local search
 search:
   path: search.xml
   field: post
