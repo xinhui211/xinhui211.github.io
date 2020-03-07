@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>gninen&#39;s blog</title>
+  <title>xinhui&#39;s blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.basisz.cn/"/>
-  <updated>2020-03-07T09:19:15.984Z</updated>
+  <updated>2020-03-07T09:26:37.595Z</updated>
   <id>https://blog.basisz.cn/</id>
   
   <author>
-    <name>gninen</name>
+    <name>xinhui</name>
     
   </author>
   
@@ -21,9 +21,17 @@
     <link href="https://blog.basisz.cn/2020/03/07/title-32/"/>
     <id>https://blog.basisz.cn/2020/03/07/title-32/</id>
     <published>2020-03-07T09:19:15.000Z</published>
-    <updated>2020-03-07T09:19:15.984Z</updated>
+    <updated>2020-03-07T09:26:37.595Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="it-is-an-iphone"><a href="#it-is-an-iphone" class="headerlink" title="it is an iphone"></a>it is an iphone</h1><p>what</p>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;it-is-an-iphone&quot;&gt;&lt;a href=&quot;#it-is-an-iphone&quot; class=&quot;headerlink&quot; title=&quot;it is an iphone&quot;&gt;&lt;/a&gt;it is an iphone&lt;/h1&gt;&lt;p&gt;what&lt;/p&gt;
+
+      
     
     </summary>
     
