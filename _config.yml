@@ -99,7 +99,7 @@ theme: hexo-theme-xoxo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:gninen/gninen.github.io.git
+  repo: git@github.com:xinhui211/xinhui211.github.io.git
   branch: master
 
 # local search
