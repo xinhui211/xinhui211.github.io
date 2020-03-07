@@ -45,8 +45,8 @@ sitemap:
 
 disqus_shortname: XXX
 
-google_analytics: XXX
-baidu_analytics: FuckUBaidu
+google_analytics: false
+baidu_analytics: true
 
 # switch
 show_excerpt: true

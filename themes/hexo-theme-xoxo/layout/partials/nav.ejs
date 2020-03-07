@@ -1,8 +1,8 @@
 <nav class="home-menu pure-menu pure-menu-horizontal">
-  <a class="pure-menu-heading" href="/">
-    <img class="avatar" src="<%=config.url%>/logo.png">
-    <span class="title"><%=config.title%></span>
-  </a>
+  <span class="pure-menu-heading">
+    <a href="/"><img class="avatar" src="<%=config.url%>/logo.png"></a>
+    <span id="logo" class="title"><%=config.title%></span>
+  </span>
 
   <ul class="pure-menu-list clearfix">
       <% Object.keys(theme.menu).forEach(function(key) { %>

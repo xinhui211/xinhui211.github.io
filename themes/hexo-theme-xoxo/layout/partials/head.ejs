@@ -5,8 +5,12 @@ if (is_tag()) pageTitle = 'tag: ' + page.tag;
 if (is_category()) pageTitle = 'category: ' + page.category;
 if (is_month()) pageTitle += ': ' + page.month + '/' + page.year;
 if (is_year()) pageTitle += ': ' + page.year;
-pageTitle += ' [ ' + config.title + ' ]';
 if (is_home()) pageTitle+= config.subtitle;
+if(!pageTitle){
+  pageTitle += config.title; 
+}else{
+  pageTitle += '[' + config.title + ']';
+}
 %>
 
 <head>
@@ -14,7 +18,8 @@ if (is_home()) pageTitle+= config.subtitle;
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <meta name="theme-color" content="#202020"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+  <!-- <%-partial('busuanzi')%> -->
+  <!-- <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script> -->
   
   <% if (page.tags && page.tags.length) { %>
     <meta name="keywords" content="<% page.tags.forEach(function(tag) { %><%= tag.name %>,<% }); %>" />

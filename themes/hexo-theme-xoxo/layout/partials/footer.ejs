@@ -1,7 +1,10 @@
 <footer class="footer text-center">
     <div id="bottom-inner">
+        &copy; 
+        <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %> 
+        &nbsp;
         <a class="bottom-item" href="<%=theme.index_page%>">首页</a> |
         <a class="bottom-item" href="<%=theme.main_site%>" target="_blank">主站</a> |
-        <a class="bottom-item" href="<%=theme.github%>" target="_blank">GitHub</a> |
+        <a class="bottom-item" href="<%=theme.github%>" target="_blank">GitHub</a>
     </div>
 </footer>
