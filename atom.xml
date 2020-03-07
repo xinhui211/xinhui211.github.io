@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.basisz.cn/"/>
-  <updated>2020-03-07T04:03:26.237Z</updated>
+  <updated>2020-03-07T09:19:15.984Z</updated>
   <id>https://blog.basisz.cn/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>title 32</title>
+    <link href="https://blog.basisz.cn/2020/03/07/title-32/"/>
+    <id>https://blog.basisz.cn/2020/03/07/title-32/</id>
+    <published>2020-03-07T09:19:15.000Z</published>
+    <updated>2020-03-07T09:19:15.984Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello Hexo</title>
